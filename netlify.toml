@@ -2,5 +2,17 @@
   command = "solid-start build"
   functions = "netlify/functions"
   publish = "netlify"
+  
+  
+[[plugins]]
+  package = "netlify-plugin-rss"
+[plugins.inputs]
+  # required configs, customize as needed
+  dirToScan = "/posts" # a subfolder to scan. "/" to scan all
+  authorName = "swyx"
+  site_url = "https://swyx.io"
+  title = "swyx RSS Feed"
+  rssDescription = "swyx.io RSS Feed"
+  categories = ['Technology', 'JAMstack', 'Web Development']
 
   ## more info on configuring this file: https://www.netlify.com/docs/netlify-toml-reference/
