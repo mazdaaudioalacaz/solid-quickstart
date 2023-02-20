@@ -5,8 +5,8 @@
   
   
 [[plugins]]
-  package = "netlify-plugin-rss"
-[plugins.inputs]
+package = "netlify-plugin-rss"
+  [plugins.inputs]
   # required configs, customize as needed
   dirToScan = "/posts" # a subfolder to scan. "/" to scan all
   authorName = "swyx"
