@@ -8,6 +8,7 @@
 package = "netlify-plugin-rss"
   [plugins.inputs]
   # required configs, customize as needed
+  dirToScan = "/"
   authorName = "swyx"
   site_url = "https://bejewelled-tiramisu-55b76c.netlify.app"
   title = "swyx RSS Feed"
